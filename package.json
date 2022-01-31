@@ -1,0 +1,23 @@
+{
+  "name": "stdlib",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ts-plus/stdlib.git",
+  "author": "Michael Arnaldi <arnaldimichael@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest",
+    "dev:ts": "yarn build --watch",
+    "build": "tsc -b tsconfig.json"
+  },
+  "packageManager": "yarn@3.1.1",
+  "devDependencies": {
+    "@types/node": "^17.0.13",
+    "typescript": "^4.5.5",
+    "vite": "^2.7.13",
+    "vitest": "^0.2.5"
+  },
+  "dependencies": {
+    "@effect-ts/core": "^0.53.0"
+  }
+}
